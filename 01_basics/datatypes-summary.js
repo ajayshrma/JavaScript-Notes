@@ -63,3 +63,30 @@ iii)             Function                            function(object) /*
 
 /* JS is Dynamic language because : You can create new variables at runtime, 
 and the type of variables is determined at runtime */
+
+// stack memory is all about primitive datatype
+// Heap is all about non Primitive
+
+// example of Stack
+let myYoutubenme = "hiteshchoudharydotcom"      //stack myYoutube variable 
+
+let anotherName = myYoutubenme                  // stcaak anotherName variabe
+
+anotherName = "chaiaurcode"
+
+console.log(myYoutubenme);
+console.log(anotherName);
+
+// example of Heap 
+
+let usrOne = {
+   email: "ajay@gmail.com",
+   upi: "ajay@ybl"
+}
+
+let usrTwo = usrOne
+
+usrTwo.email = "sharma@gmail.com"
+
+console.log(usrOne.email);
+console.log(usrTwo.email);
