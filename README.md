@@ -1,2 +1,2 @@
-# JavaScript-Series---Selfskyway
+# JavaScript Notes
  Learning JavaScript
